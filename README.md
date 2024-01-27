@@ -2,7 +2,7 @@
 
 Bienvenido a Orquesta, tu destino para explorar y disfrutar de la música clásica en vivo. Aquí puedes comprar camisas exclusivas, entradas para los mejores conciertos, registrarte para recibir actualizaciones emocionantes y sumergirte en el mundo de la música orquestal. Descubre conciertos, directores, orquestas, obras, solistas y compositores de renombre, todo en un solo lugar.
 
-![Orquesta](url_de_la_imagen)
+![Orquesta](Proyecto/assets/imagenes/descarga.png)
 
 ## Contenido Destacado
 
@@ -22,7 +22,7 @@ Bienvenido a Orquesta, tu destino para explorar y disfrutar de la música clási
 | 2023-07-20  | Dark Hell                | Orquesta Sinfónica de Londres    | Barcelona  |
 | 2023-06-12  | Reggaeton Beach Festival | Orquesta Sinfónica de Chicago    | Cádiz      |
 
-**Y MUCHAS MÁS**
+**-  Y MUCHAS MÁS**
 
 ### Directores Destacados
 
