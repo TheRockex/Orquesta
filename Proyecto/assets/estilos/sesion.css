@@ -1,0 +1,44 @@
+form {
+    color: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(54, 53, 53);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#usuario {
+    background-color: grey;
+}
+
+#contrasena {
+    background-color: grey;
+}
+
+#ingresar {
+    background-color: orange;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#limpiar {
+    background-color: orange;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#sesio {
+    margin-top: 160px;
+}

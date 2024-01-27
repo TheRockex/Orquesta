@@ -1,0 +1,42 @@
+.calendario {
+  width: 70%;
+  height: 70%;
+  border-collapse: collapse;
+}
+
+.calendario th,
+.calendario td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(97, 97, 97);
+}
+
+.calendario tbody tr:nth-child(even) {
+  background-color: #aaa;
+}
+
+.calendario tbody tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.calendario > thead th {
+  background-color: black;
+  font-weight: bold;
+}
+
+.calendario>tbody td {
+  cursor: pointer;
+}
+
+.calendario>tbody td:hover {
+  background-color: black;
+}
+
+.calendario>td.current {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.mes {
+  text-align: center;
+}

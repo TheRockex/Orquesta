@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orquesta</title>
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/awesome/all.min.css">
+    <link rel="stylesheet" href="assets/estilos/index.css">
+    <link rel="stylesheet" href="assets/estilos/panel.css">
+    <link rel="stylesheet" href="assets/estilos/abono.css">
+    <link rel="stylesheet" href="assets/estilos/sesion.css">
+    <link rel="stylesheet" href="assets/estilos/calendario.css">
+    <link rel="stylesheet" href="assets/estilos/tabla.css">
+    <link rel="stylesheet" href="assets/estilos/tienda.css">
+    <link rel="stylesheet" href="assets/estilos/responsive.css">
+
+    <script src="assets/fontawesome-free-5.15.4-web/awesome/all.min.js"></script>
+    <script src="assets/scripts/index.js"></script>
+    <script src="assets/scripts/Inicio.js"></script>
+    <script src="assets/scripts/tienda.js"></script>
+    <script src="assets/scripts/entradas.js"></script>
+    <script src="assets/scripts/calendario.js"></script>
+    <script src="assets/scripts/tablas.js"></script>
+
+</head>
+
+<body onload="fInicio()">
+    <div id="div_modal">
+        <form>
+            <input type="hidden" id="accion">
+            <input type="hidden" id="id">
+
+            <label class="compositor" for="nombre">Nombre</label>
+            <input class="compositor" type="text" id="nombre">
+
+            <label class="compositor" for="fechan">Fecha de nacimiento</label>
+            <input class="compositor" type="text" id="fechan">
+
+            <label class="compositor" for="fechaf">Fecha de defuncion</label>
+            <input class="compositor" type="text" id="fechaf">
+
+            <input class="director" type="hidden" id="accion">
+            <input class="director" type="hidden" id="id">
+
+            <label class="director" for="fechaf">Nombre</label>
+            <input class="director" type="text" id="nombre_director">
+
+            <label class="director" for="nombre">Direccion</label>
+            <input class="director" type="text" id="direccion_director">
+
+            <label class="director" for="fechan">Fecha de nacimiento</label>
+            <input class="director" type="text" id="fechan_director">
+
+            <label class="director" for="num_obras">Titulación</label>
+            <input class="director" type="text" id="titulacion_director">
+
+            <input class="solista" type="hidden" id="accion">
+            <input class="solista" type="hidden" id="id">
+
+            <label class="solista" for="nombre">Nombre</label>
+            <input class="solista" type="text" id="nombre_solista">
+
+            <label class="solista" for="fechan">Fecha de nacimiento</label>
+            <input class="solista" type="text" id="fechan_solista">
+
+            <label class="solista" for="fechaf">Instrumento</label>
+            <input class="solista" type="text" id="instrumento_solista">
+
+            <input class="obra" type="hidden" id="accion">
+            <input class="obra" type="hidden" id="id">
+
+            <label class="obra" for="fechan">Titulo Obra</label>
+            <input class="obra" type="text" id="titulo_obra">
+
+            <label class="obra" for="nombre">Codigo Compositor</label>
+            <input class="obra" type="text" id="compositor">
+
+
+            <input class="concierto" type="hidden" id="accion">
+            <input class="concierto" type="hidden" id="id">
+
+            <label class="concierto" for="fechaf">Nombre</label>
+            <input class="concierto" type="text" id="nombre_concierto">
+
+            <label class="concierto" for="nombre">Direccion</label>
+            <input class="concierto" type="text" id="direccion_concierto">
+
+            <label class="concierto" for="fechan">Fecha de inscripcion</label>
+            <input class="concierto" type="text" id="fecha_inscripcion">
+
+            <input class="banda" type="hidden" id="accion">
+            <input class="banda" type="hidden" id="id">
+
+            <label class="banda" for="nombre">Nombre</label>
+            <input class="banda" type="text" id="nombre_banda">
+
+            <label class="banda" for="nombre">Total de personas</label>
+            <input class="banda" type="text" id="numero_componentes">
+
+            <label class="banda" for="fechan">Codigo director</label>
+            <input class="banda" type="text" id="codigo_director">
+
+            <div class="tablaO"></div>
+
+            
+            <div class="botonera">
+
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <i id="menu" class="fa fa-bars" onclick="fMenu()"></i>
+        <div class="logo"><img src="assets/imagenes/descarga.png" alt=""></div>
+        <div class="orquesta" onclick="fInicio()">O R Q U E S T A</div>
+        <div class="menu1" onclick="fAbonos()">Entradas</div>
+        <div class="menu2" onclick="fCalendario()">Calendario</div>
+        <div class="menu3" onclick="fISesion()">Iniciar sesión</div>
+        <div class="menu4"> Hola</div>
+        
+    </header>
+    <nav>
+        <div onclick="fDirector()">Director &nbsp; <i class="fa fa-caret-right"></i></div>
+        <div onclick="fOrquesta()">Orquesta &nbsp; <i class="fa fa-caret-right"></i></div>
+        <div onclick="fConcierto()">Concierto &nbsp; <i class="fa fa-caret-right"></i></div>
+        <div onclick="fObra()">Obra &nbsp; <i class="fa fa-caret-right"></i></div>
+        <div onclick="fSolista()">Solista &nbsp; <i class="fa fa-caret-right"></i></div>
+        <div onclick='fCompositor()'>Compositor &nbsp; <i class="fa fa-caret-right"></i></div>
+    </nav>
+    <section>
+
+    </section>
+    <footer>
+
+        <div class="fundacion">
+            Fundación
+            <br>
+            O R Q U E S T A
+            <br>
+            _______________
+        </div>
+        <div class="texto">
+            <div class="red">
+                <img src="assets/imagenes/twitter.png" alt="">
+                <a href="https://twitter.com/ocnesp">@OrquestaMusic</a>
+            </div>
+            <div class="red">
+                <img src="assets/imagenes/youtube.png" alt="">
+                <a href="https://www.youtube.com/@SinfonicadeGalicia">OrquestaTV</a>
+            </div>
+
+            <div class="red">
+                <img src="assets/imagenes/insta.png" alt="">
+                <a href="https://www.instagram.com/orquesta/">OrquestaMusic</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
