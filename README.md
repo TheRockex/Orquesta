@@ -42,8 +42,8 @@ Explora nuestras obras destacadas con nuestro reproductor de audio incorporado. 
 
 ## Estilo Visual
 
-- **Color de Fondo**: Negro -> <div style="background-color: #000000; width: 100px; height: 100px;"></div>.
-- **Tablas**: <div style="background-color: #707070; width: 100px; height: 100px;"></div> y <div style="background-color: #000000; width: 100px; height: 100px;"></div>.
-- **Entradas**: <div style="background-color: #FFFFFF; width: 100px; height: 100px;"></div>.
+- **Color de Fondo**: Negro -> ![Fondo Negro](https://via.placeholder.com/100x100/000000).
+- **Tablas**: Gris - > ![Gris](https://via.placeholder.com/100x100/707070) y negro -> ![Negro](https://via.placeholder.com/100x100/000000).
+- **Entradas**: Blanco -> ![Blanco](https://via.placeholder.com/100x100/FFFFFF).
 
 ¡Gracias por visitar Orquesta! Sumérgete en el mundo de la música clásica y disfruta de una experiencia única con nosotros. ¡Esperamos verte en nuestros próximos conciertos! 🎻🎶
