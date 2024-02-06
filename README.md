@@ -42,8 +42,8 @@ Explora nuestras obras destacadas con nuestro reproductor de audio incorporado. 
 
 ## Estilo Visual
 
-- **Color de Fondo**: `#000000`.
-- **Tablas**: `#70707080 ` y `#000000`.
+- **Color de Fondo**: Negro -> `#000000`.
+- **Tablas**: `#707070` y `#000000`.
 - **Entradas**: `#FFFFFF`.
 
 ¡Gracias por visitar Orquesta! Sumérgete en el mundo de la música clásica y disfruta de una experiencia única con nosotros. ¡Esperamos verte en nuestros próximos conciertos! 🎻🎶
