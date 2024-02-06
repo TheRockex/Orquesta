@@ -43,15 +43,19 @@ Explora nuestras obras destacadas con nuestro reproductor de audio incorporado. 
 ## Estilo Visual
 
 **Color de Fondo**: 
+<br>
 -Negro ![Fondo Negro](https://via.placeholder.com/15x15/000000)
 
 
- **Tablas**:
+ **Tablas**: 
+ <br>
 -Gris ![Fondo Gris](https://via.placeholder.com/15x15/707070)
+<br>
 -Negro![Fondo Negro](https://via.placeholder.com/15x15/000000)
 
 
 **Entradas**: 
+<br>
 -Blanco![Fondo Blanco](https://via.placeholder.com/15x15/FFFFFF)
 
 
